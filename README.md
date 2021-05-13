@@ -1,3 +1,6 @@
+
+
+
 # Among-us-Editor-For-Android
 Edit your among us character on ANDROID with this app
 # Features
@@ -5,8 +8,9 @@ Can set your custom appearance in among us
 # Future Updates
 Better UI<br>
 Custom game settings<br>
-Presets<br>
-Custom server
+Presets/Custom presets<br>
+Custom server<br>
+Ads(i need money to make more projects like this)
 # Known Bugs
  Sometimes logs your account off
  Sometimes among us asking you for data consent
