@@ -12,9 +12,11 @@ Presets/Custom presets<br>
 Custom server<br>
 Ads(i need money to make more projects like this)
 # Known Bugs
+<b>Recent Among us version <i>2021.5.12a</i></b>
+<l>
  Sometimes logs your account off
  Sometimes among us asking you for data consent
-
+</l>
 # Info
 This app is inspired by Koupah's [Among Us Editor](https://github.com/Koupah/Among-Us-Editor)
 # License
