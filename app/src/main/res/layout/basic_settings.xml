@@ -1,0 +1,122 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:background="#757575"
+		android:orientation="vertical">
+		<ScrollView
+			android:id="@+id/vscroll1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:padding="8dp">
+			<LinearLayout
+				android:id="@+id/linear7"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="vertical">
+				<LinearLayout
+					android:id="@+id/linear3"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:orientation="horizontal">
+					<ImageView
+						android:id="@+id/hatimg"
+						android:layout_width="100dp"
+						android:layout_height="100dp"
+						android:src="@drawable/red_default"
+						android:scaleType="fitCenter" />
+					<Spinner
+						android:id="@+id/hatSel"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:spinnerMode="dropdown" />
+				</LinearLayout>
+				<LinearLayout
+					android:id="@+id/linear4"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:orientation="horizontal">
+					<ImageView
+						android:id="@+id/colorimg"
+						android:layout_width="100dp"
+						android:layout_height="100dp"
+						android:src="@drawable/red_default"
+						android:scaleType="fitCenter" />
+					<Spinner
+						android:id="@+id/colorSel"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:spinnerMode="dropdown" />
+				</LinearLayout>
+				<LinearLayout
+					android:id="@+id/linear5"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:orientation="horizontal">
+					<ImageView
+						android:id="@+id/skinimg"
+						android:layout_width="100dp"
+						android:layout_height="100dp"
+						android:src="@drawable/red_default"
+						android:scaleType="fitCenter" />
+					<Spinner
+						android:id="@+id/skinSel"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:spinnerMode="dropdown" />
+				</LinearLayout>
+				<LinearLayout
+					android:id="@+id/linear6"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:orientation="horizontal">
+					<ImageView
+						android:id="@+id/petimg"
+						android:layout_width="100dp"
+						android:layout_height="100dp"
+						android:src="@drawable/red_default"
+						android:scaleType="fitCenter" />
+					<Spinner
+						android:id="@+id/petSel"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:spinnerMode="dropdown" />
+				</LinearLayout>
+				<EditText
+					android:id="@+id/edittext1"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:textSize="12sp"
+					android:textColor="#000000"
+					android:hint="Name"
+					android:textColorHint="#90A4AE" />
+				<Button
+					android:id="@+id/button1"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Apply"
+					android:textSize="12sp"
+					android:textColor="#000000" />
+			</LinearLayout>
+		</ScrollView>
+	</LinearLayout>
+</LinearLayout>
